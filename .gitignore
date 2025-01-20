@@ -1,0 +1,57 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints and configurations
+.ipynb_checkpoints/
+.jupyter/
+
+# Dataset Files
+*.csv
+*.xlsx
+*.json
+*.hdf5
+*.feather
+*.parquet
+*.zip
+
+# Virtual Environment
+venv/
+env/
+*.env
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# IDE and Editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Test Coverage Files
+.coverage
+*.cover
+
+# Output directories
+build/
+dist/
+*.egg-info/
+
+# Notebook-generated outputs
+*.png
+*.html
+*.svg
+
+# Custom output directories (if applicable)
+output/
+results/

@@ -103,13 +103,13 @@ jupyter notebook "The Impact of Social Sentiment on Time Series Models for Bitco
 
 ## Results
 
-Integrating sentiment analysis into ARIMA and SARIMA models significantly improved Bitcoin price prediction, with ARIMA reducing RMSE by 59.88% and SARIMA achieving the best overall performance, reducing RMSE by 56.52% and improving MAE by 21.53% and MAPE by 18.85%. These results highlight the value of sentiment data in capturing market dynamics, though challenges like residual kurtosis and overfitting in ARIMA models remain due to Bitcoin’s high volatility.
+The integration of sentiment analysis into ARIMA and SARIMA models greatly improved the accuracy of Bitcoin price predictions. ARIMA models with sentiment data reduced RMSE by 59.88%, while SARIMA models with sentiment achieved the best overall performance, lowering RMSE by 56.52%, MAE by 21.53%, and MAPE by 18.85%. These findings demonstrate the value of incorporating sentiment data to better capture market trends. However, challenges like overfitting in ARIMA models and Bitcoin's high volatility still pose limitations.
 
 ---
 
 ## Conclusion
 
-This project demonstrates the significant impact of sentiment analysis on improving Bitcoin price predictions using time series models. By integrating sentiment features and technical indicators into ARIMA and SARIMA models, predictive accuracy was substantially enhanced, with sentiment-enhanced SARIMA models outperforming baseline approaches. The results highlight the importance of external factors, such as market sentiment, in capturing the complex dynamics of cryptocurrency markets. Despite challenges like Bitcoin’s high volatility and residual issues in ARIMA models, this study provides a foundation for future advancements, including the adoption of deep learning models and real-time prediction systems.
+This project highlights the significant role of sentiment analysis in enhancing Bitcoin price prediction using time series models. Combining sentiment features and technical indicators with ARIMA and SARIMA models led to much better prediction accuracy, with sentiment-enhanced SARIMA models outperforming other approaches. The results emphasize the importance of considering market sentiment in understanding the complex nature of cryptocurrency markets. Despite some challenges, this study lays the groundwork for further advancements, such as exploring deep learning models and developing real-time prediction pipelines.
 
 ---
 

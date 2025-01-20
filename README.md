@@ -49,14 +49,16 @@ This repository contains the implementation of an MSc Data Science project inves
 git clone https://github.com/Birkbeck/msc-projects-2023-4-Abuzer-Khanzade.git
 cd msc-projects-2023-4-Abuzer-Khanzade
 ```
-#Install Dependencies
+# Install Dependencies
 ##Create a virtual environment:
 ```
 python -m venv venv
+```
+```
 source venv/bin/activate           # On Windows: venv\Scripts\activate
 
 ```
----
+
 
 ## Install the required libraries:
 ```

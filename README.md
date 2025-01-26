@@ -16,7 +16,7 @@ This repository contains the implementation of an MSc Data Science project inves
 ## Project Structure
 ```plaintext
 |--Code/
-|   |--The Impact of Social Sentiment on Time Series Models for Bitcoin Price Prediction.ipynb
+|   |-- The Impact of Social Sentiment on Time Series Models for Bitcoin Price Prediction.ipynb
 |
 |-- Dataset/
 |   |-- bitcoin_data.csv                 # Raw Bitcoin data (2013–2021)

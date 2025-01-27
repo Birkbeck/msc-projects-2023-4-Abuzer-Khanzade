@@ -8,7 +8,7 @@ This repository contains the implementation of an MSc Data Science project inves
 ## Features
 - **Time Series Models**: ARIMA and SARIMA with and without sentiment integration.
 - **Sentiment Analysis**: Integration of cryptocurrency-related sentiment scores.
-- **Technical Indicators**: SMA, EMA, RSI, MACD, and others for better feature engineering.
+- **Technical Indicators**: SMA, EMA, RSI, and MACD for better feature engineering.
 - **Comprehensive Evaluation**: Includes performance metrics (MAE, RMSE, MAPE) and visual comparisons.
 
 ---
@@ -82,11 +82,18 @@ jupyter notebook "The Impact of Social Sentiment on Time Series Models for Bitco
 - Bitcoin price data: Historical data obtained from Yahoo Finance (2013–2021).
 - Sentiment data: Sourced from a Kaggle dataset containing over 824,000 cryptocurrency-  related tweets.
 
+## Data Preprocessing:
+
+- Missing values were addressed.
+- Datasets were aligned by date. 
+- Features were normalized using StandardScaler for consistency.
+
 
 ## Feature Engineering:
 
 - Technical indicators like SMA, EMA, RSI, and MACD were added to capture market trends.
-- Sentiment features (positive, neutral, negative, compound scores) were merged with Bitcoin price data for integration into models.
+- Sentiment features (positive, neutral, negative, compound scores) were transformed into lagged variables and rolling averages to reflect delayed impacts and smoothed patterns. 
+
 
 
 ## Model Development:
